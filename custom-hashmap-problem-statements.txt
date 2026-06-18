@@ -1,0 +1,40 @@
+Design a Custom HashMap
+
+Problem Statement
+
+Design and implement a generic HashMap (k,V) data structure from scratch without using any built-in map/dictionary implementations.
+Your HashMap should support efficient key-value storage and retrieval while handling collisions, resizing, and special key/value cases.
+
+Functional Requirements
+
+Implement the following operations:
+put(K key, V value)
+Inserts a new key-value pair.
+Updates the value if the key already exists.
+Average time complexity: O(1).
+get(K key)
+Returns the value associated with the given key.
+Returns null (or equivalent) if the key does not exist.
+Average time complexity: O(1).
+remove(K key)
+Removes the key-value pair if present.
+Average time complexity: O(1).
+containsKey(K key)
+Returns whether the key exists in the map.
+Average time complexity: O(1).
+Null handling
+The HashMap must support:
+Exactly one null key.
+Multiple entries having null as a value
+Non-Functional Requirements
+Automatic Growth
+The HashMap should automatically resize (expand) when the number of stored entries exceeds a configurable load factor threshold.
+Rehashing should preserve all existing entries.
+Automatic Shrink
+The HashMap should automatically reduce its capacity when utilization drops below a configurable threshold.
+Frequent oscillation between grow and shrink operations should be avoided.
+Scalability
+The design should continue to provide near O(1) average performance under increasing data volume.
+Memory Efficiency
+Minimize memory overhead while maintaining performance.
+
