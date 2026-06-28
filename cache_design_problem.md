@@ -59,8 +59,12 @@ evictionCount()
 
 
 
-**Design Discussion and class diagram
-**
+**Design Discussion and class diagram**
+
+
+
+
+
 
 <img width="1880" height="3531" alt="LRU_cache" src="https://github.com/user-attachments/assets/e4bb2802-5d9b-42c5-98d7-a085628832c6" />
 
