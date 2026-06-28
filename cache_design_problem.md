@@ -1,4 +1,4 @@
-Problem Statement: Design an In-Memory LRU Cache
+**Problem Statement**: Design an In-Memory LRU Cache
 You are building a caching library that will be used by multiple backend services.
 Design and implement an in-memory cache supporting the following requirements.
 Functional Requirements
@@ -58,6 +58,9 @@ missCount()
 evictionCount()
 
 
+
+**Design Discussion and class diagram
+**
 
 <img width="1880" height="3531" alt="LRU_cache" src="https://github.com/user-attachments/assets/e4bb2802-5d9b-42c5-98d7-a085628832c6" />
 
